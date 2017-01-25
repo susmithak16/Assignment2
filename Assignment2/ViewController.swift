@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    //whenever the ViewController screen appears, the viewWillApppear function is called
+    //When the application launches or when the ViewController screen is about to appear, the viewWillApppear function is called
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         NSLog("In ViewController, viewWillAppear")
